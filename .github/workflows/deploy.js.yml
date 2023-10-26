@@ -19,7 +19,7 @@ jobs:
         echo ${{ secrets.KUBE_CONFIG }} | base64 --decode > ${HOME}/.kube/config
         cat ${HOME}/.kube/config
         id
-        sudo su
+        sudo date
         id
     - name: Use context
       run: kubectl config use-context minikube
