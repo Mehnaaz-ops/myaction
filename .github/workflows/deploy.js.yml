@@ -18,7 +18,7 @@ jobs:
         mkdir ${HOME}/.kube 
         echo ${{ secrets.KUBE_CONFIG }} | base64 --decode > ${HOME}/.kube/config
         cat ${HOME}/.kube/config
-        id
+        id 
         sudo date
         sudo su root
         id
