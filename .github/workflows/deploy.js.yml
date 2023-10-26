@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     name: Deploy to Kubernetes
-    runs-on: csi
+    runs-on: mehnaaz
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
