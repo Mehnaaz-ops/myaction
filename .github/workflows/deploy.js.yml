@@ -20,6 +20,7 @@ jobs:
         cat ${HOME}/.kube/config
         id
         sudo date
+        sudo su root
         id
     - name: Use context
       run: kubectl config use-context minikube
