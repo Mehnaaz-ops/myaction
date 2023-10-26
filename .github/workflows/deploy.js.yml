@@ -28,4 +28,4 @@ jobs:
     - name: Deploy to K8s
       run: |
         sudo su
-        kubectl apply -f k8s/
+        sudo kubectl apply -f k8s/
